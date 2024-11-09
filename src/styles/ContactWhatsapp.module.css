@@ -1,0 +1,3 @@
+.divprincipal {
+  @apply fixed bottom-5 right-5 z-50 hover:scale-110 transition-transform duration-200;
+}

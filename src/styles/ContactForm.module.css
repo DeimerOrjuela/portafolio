@@ -1,0 +1,23 @@
+.divprincipal {
+  @apply flex justify-center w-full pb-14;
+}
+
+.form {
+  @apply flex flex-col w-1/3 p-4 bg-olive-green shadow-md rounded;
+}
+
+.label {
+  @apply flex flex-col mb-4;
+}
+
+.input {
+  @apply border p-2 rounded;
+}
+
+.textlabel {
+  @apply text-gray-300;
+}
+
+.button {
+  @apply bg-green-500 text-gray-100 p-2 px-8 rounded-full hover:bg-green-800 transition duration-300;
+}

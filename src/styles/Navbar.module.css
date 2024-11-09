@@ -1,0 +1,29 @@
+/* src/styles/Navbar.module.css */
+
+.navbar {
+  @apply sticky top-0 bg-olive-green p-4 z-50;
+}
+
+.container {
+  @apply mx-auto flex justify-between items-center;
+}
+
+.logo {
+  @apply h-12 w-auto pl-24;
+}
+
+.link {
+  @apply text-lg text-gray-300 mx-12 pt-14 font-semibold no-underline transition duration-300 relative inline-block;
+}
+
+.linkUnderline {
+  @apply h-1 bg-green-400 block transition-all duration-300 ease-in-out mt-1 opacity-0;
+}
+
+.link:hover .linkUnderline {
+  @apply opacity-100;
+}
+
+.navLinks {
+  @apply hidden md:flex space-x-6 mr-4;
+}

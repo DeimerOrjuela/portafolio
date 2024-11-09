@@ -1,0 +1,23 @@
+.hero {
+  @apply bg-olive-green flex;
+}
+
+.divcontent {
+  @apply flex flex-col lg:flex-row;
+}
+
+.imagen {
+  @apply max-w-sm rounded-lg shadow-2xl my-14 mx-14 h-60 w-48;
+}
+
+.texto {
+  @apply mt-14 text-4xl font-semibold text-gray-300;
+}
+
+.paragph {
+  @apply py-6 mr-20 text-2xl text-gray-300;
+}
+
+.button {
+  @apply bg-green-600 rounded-sm p-2 text-white text-base hover:bg-green-800 hover:text-white transition duration-200;
+}

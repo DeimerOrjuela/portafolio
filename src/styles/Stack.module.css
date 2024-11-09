@@ -1,0 +1,23 @@
+.divprincipal {
+  @apply w-full flex justify-center bg-olive-green py-8;
+}
+
+.divsecundario {
+  @apply w-full max-w-4xl;
+}
+
+.separador {
+  @apply mt-8;
+}
+
+.parrafo {
+  @apply text-center text-gray-300 w-full border-t border-b border-gray-300;
+}
+
+.divicon {
+  @apply flex justify-center space-x-4 mt-4 mb-4;
+}
+
+.img {
+  @apply h-24 w-24;
+}

@@ -1,0 +1,29 @@
+/* src/styles/Footer.module.css */
+
+.footer {
+  @apply flex flex-col w-full bg-olive-green text-gray-300 py-8;
+}
+
+.primerdiv {
+  @apply container mx-auto px-4;
+}
+
+.divsotials {
+  @apply flex space-x-4 mb-2 justify-center;
+}
+
+.iconssotials {
+  @apply text-gray-300 hover:text-green-400 text-2xl transition-transform duration-300; /* Transición suave */
+}
+
+.iconssotials:hover {
+  @apply transform scale-110; /* Aumenta el tamaño al pasar el ratón */
+}
+
+.linetop {
+  @apply border-t border-gray-600 my-4;
+}
+
+.textfooter {
+  @apply text-center text-gray-300 text-sm;
+}

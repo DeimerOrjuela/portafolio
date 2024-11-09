@@ -1,0 +1,11 @@
+.contenedorprincipal {
+  @apply flex flex-col w-full pb-8 bg-olive-green text-gray-300;
+}
+
+.h2 {
+  @apply text-3xl pb-4 text-center;
+}
+
+.parrafo {
+  @apply mr-32 ml-32 pt-8 pb-8 text-xl;
+}

@@ -1,0 +1,23 @@
+.hero {
+  @apply bg-gray-100 flex;
+}
+
+.divcontent {
+  @apply flex flex-col lg:flex-row;
+}
+
+.imagen {
+  @apply max-w-sm rounded-lg shadow-2xl my-14 mx-14;
+}
+
+.texto {
+  @apply mt-14 text-5xl font-bold;
+}
+
+.paragph {
+  @apply py-6;
+}
+
+.button {
+  @apply bg-indigo-600 rounded-sm p-2 text-white hover:bg-lime-600 hover:text-red-600 transition duration-300;
+}
